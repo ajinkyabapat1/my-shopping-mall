@@ -1,9 +1,16 @@
-# Angular (4) - Shopping Basket Example
+# Angular (4) - Angular Shopping Basket 
+
+# Author:
+Ajinkya Bapat - ajinkyabapat1@gmail.com
+
+# Steps to setup Workspace :
+Install VS code Install Node js Install Angular CLI : npm install -g @angular/cli once done with all installation ,run following commands
+ng update
+npm install
+install --save-dev @angular-devkit/build-angular
+npm start
 
 
-[![Build Status](https://travis-ci.org/jonsamwell/angular-simple-shopping-cart.svg?branch=master)](https://travis-ci.org/jonsamwell/angular-simple-shopping-cart)  
-
-See it in action https://jonsamwell.github.io/angular-simple-shopping-cart/
 
 # Architectural Summary
 
