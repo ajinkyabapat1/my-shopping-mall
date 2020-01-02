@@ -1,12 +1,12 @@
 import { inject, TestBed } from "@angular/core/testing";
 import { MockBackend } from "@angular/http/testing";
 import { Router, RouterModule } from "@angular/router";
-import { CartItem } from "app/models/cart-item.model";
-import { ShoppingCart } from "app/models/shopping-cart.model";
-import { DeliveryOptionsDataService } from "app/services/delivery-options.service";
-import { ProductsDataService } from "app/services/products.service";
-import { ShoppingCartService } from "app/services/shopping-cart.service";
-import { LocalStorageServie, StorageService } from "app/services/storage.service";
+import { CartItem } from "../models/cart-item.model";
+import { ShoppingCart } from "../models/shopping-cart.model";
+import { DeliveryOptionsDataService } from "../services/delivery-options.service";
+import { ProductsDataService } from "../services/products.service";
+import { ShoppingCartService } from "../services/shopping-cart.service";
+import { LocalStorageServie, StorageService } from "../services/storage.service";
 import { Observable } from "rxjs/Observable";
 import { Observer } from "rxjs/Observer";
 import * as sinon from "sinon";
@@ -36,7 +36,7 @@ class MockShoppingCartService {
     if (this.subscriber) {
       this.subscriber.next(cart);
     }
-  }
+  }  
 }
 
 describe("PopulatedCartRouteGuard", () => {

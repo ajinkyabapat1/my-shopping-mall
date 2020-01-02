@@ -1,11 +1,11 @@
 import { ChangeDetectionStrategy, Component, OnDestroy, OnInit } from "@angular/core";
-import { CartItem } from "app/models/cart-item.model";
-import { DeliveryOption } from "app/models/delivery-option.model";
-import { Product } from "app/models/product.model";
-import { ShoppingCart } from "app/models/shopping-cart.model";
-import { DeliveryOptionsDataService } from "app/services/delivery-options.service";
-import { ProductsDataService } from "app/services/products.service";
-import { ShoppingCartService } from "app/services/shopping-cart.service";
+import { CartItem } from "../../models/cart-item.model";
+import { DeliveryOption } from "../../models/delivery-option.model";
+import { Product } from "../../models/product.model";
+import { ShoppingCart } from "../../models/shopping-cart.model";
+import { DeliveryOptionsDataService } from "../../services/delivery-options.service";
+import { ProductsDataService } from "../../services/products.service";
+import { ShoppingCartService } from "../../services/shopping-cart.service";
 import { Observable } from "rxjs/Observable";
 import { Subscription } from "rxjs/Subscription";
 

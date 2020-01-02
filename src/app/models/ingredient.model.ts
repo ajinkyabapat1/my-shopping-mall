@@ -7,3 +7,4 @@ export class Ingredient {
     this.percentage = src.percentage;
   }
 }
+ 

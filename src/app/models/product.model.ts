@@ -14,7 +14,7 @@ export class Product {
     this.price = src.price;
     this.ingredients = src.ingredients.map((i) => {
       let ingredient = new Ingredient();
-      ingredient.updateFrom(i);
+      ingredient.updateFrom(i); 
       return ingredient;
     });
   }

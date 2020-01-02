@@ -13,7 +13,7 @@
         "name": "celery",
         "percentage": 20
       },
-      {
+      {  
         "name": "apple",
         "percentage": 20
       },

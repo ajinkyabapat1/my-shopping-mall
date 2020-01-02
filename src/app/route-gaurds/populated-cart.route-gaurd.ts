@@ -13,7 +13,7 @@ export class PopulatedCartRouteGuard implements CanActivate {
   public canActivate(): Observable<boolean> {
     return new Observable<boolean>((observer: Observer<boolean>) => {
       const cartSubscription = this.shoppingCartService
-                                  .get()
+                                  .get()  
                                   .subscribe((cart) => {
                                       if (cart.items.length === 0) {
                                         observer.next(false);

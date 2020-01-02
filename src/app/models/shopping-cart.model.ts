@@ -15,3 +15,4 @@ export class ShoppingCart {
     this.itemsTotal = src.itemsTotal;
   }
 }
+  

@@ -9,7 +9,7 @@
       "jasmine",
       "node"
     ]
-  },
+  },   
   "files": [
     "test.ts"
   ],

@@ -14,7 +14,7 @@ import { DeliveryOptionsDataService } from "./services/delivery-options.service"
 import { ProductsDataService } from "./services/products.service";
 import { ShoppingCartService } from "./services/shopping-cart.service";
 import { LocalStorageServie, StorageService } from "./services/storage.service";
-
+ 
 @NgModule({
   bootstrap: [AppComponent],
   declarations: [
