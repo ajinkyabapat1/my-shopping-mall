@@ -37,7 +37,7 @@
     "@types/node": "~6.0.60",
     "@types/sinon": "^2.2.1",
     "codelyzer": "~2.0.0",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-htmlmin": "^3.0.0",
     "gulp-replace": "^0.5.4",
     "jasmine-core": "~2.5.2",
